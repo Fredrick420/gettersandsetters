@@ -74,3 +74,9 @@ for item in items:
    inclusive = (calcInclusivePrice(item["exclusivePrice"],item["TaxRate"]))
    item["inclusivePrice"] = inclusive
    print(item["Name"] ,item["description"],item["inclusivePrice"])
+
+
+def calcInclusivePrice(exclusivePrice,taxRate):
+    inclusivePrice = exclusivePrice + (exclusivePrice * taxRate)
+    return(inclusivePrice)
+       

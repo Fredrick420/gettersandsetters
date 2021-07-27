@@ -7,14 +7,15 @@ def printName(self):
     print(self.fname, self.lname)
 
 class student(Parent):
-    def doExams(self):
-        pass
+    pass
+
+        
 
 newStudent = student("Fredrick", "Boro")
 
 print(newStudent.fname)
 print(newStudent.lname)
-print(newStudent.doExams)
+
 
 
 
